@@ -4,10 +4,10 @@
   \ \ /\ / / _ \ | '_ \  __) | | | / _` | '_ \ / _ \| '_ \ 
    \ V  V /  __/ | |_) |/ __/| |_| | (_| | |_) | (_) | | | |
     \_/\_/ \___|_|_.__/|_____|__, |__,_|_.__/ \___/|_| |_| 
-                               |___/      WELL CYBER
+                               |___/      WELL CYBER TECH AJJU
 ------------------------------------------------------------
-  🔍 Well-Known File Scanner v2.1 (Educational Edition)
-  by Bug Hunter GPT - for authorized reconnaissance only
+  🔍 Well-Known File Scanner v1.1 (Educational Edition)
+  by CyberTechAjju - for authorized reconnaissance only
 ------------------------------------------------------------
   This script helps security researchers enumerate public
   metadata endpoints for bug bounty & pentest scopes.
@@ -104,7 +104,7 @@ async function scanWellKnown(target) {
     })
   );
 
-  console.log('%c[✓] Scan complete — keep learning, keep securing ⚡', 'color:#00ffff;font-weight:bold;');
+  console.log('%c[✓] Scan complete — keep learning, keep Hacking ⚡', 'color:#00ffff;font-weight:bold;');
 }
 
 // Usage: Replace with your target domain or prompt input
