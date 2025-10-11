@@ -85,29 +85,19 @@ const wellKnownPaths = [
   '/.DS_Store'
 ];
 
-// Powerful scan function
-async function scanWellKnown(target) {
-  console.log('%c[+] Starting Well-Known Discovery Scan on ' + target, 'color:#00ffff;font-weight:bold;');
+(async () => {
+  console.log('%c[+] Starting Well-Known Discovery Scan...', 'color:#00ffff;font-weight:bold;');
   
   const results = await Promise.allSettled(
     wellKnownPaths.map(async (path) => {
-      try {
-        const res = await fetch(target + path, { method: "GET", mode: "cors" });
-        if (res.ok) {
-          console.log(`%cFOUND ➜ ${target}${path} [${res.status}]`, 'color: #00ff00');
-        } else if (res.status !== 404) {
-          console.warn(`EXISTS (non-200) ➜ ${target}${path} [${res.status}]`);
-        }
-      } catch (err) {
-        console.error(`ERROR ➜ ${target}${path}: ${err.message}`);
+      const res = await fetch(path);
+      if (res.ok) {
+        console.log(`%cFOUND ➜ ${path} [${res.status}]`, 'color: #00ff00');
+      } else {
+        console.warn(`EXISTS (non-200) ➜ ${path} [${res.status}]`);
       }
     })
   );
 
-  console.log('%c[✓] Scan complete — keep learning, keep Hacking ⚡', 'color:#00ffff;font-weight:bold;');
-}
-
-// Usage: Replace with your target domain or prompt input
-const target = prompt("Enter target domain (e.g. https://example.com):");
-if (target) scanWellKnown(target);
-else console.error("No target provided!");
+  console.log('%c[✓] Scan complete — keep learning, keep securing ⚡', 'color:#00ffff;font-weight:bold;');
+})();
