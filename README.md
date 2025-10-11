@@ -1,8 +1,4 @@
 <!-- Animated Banner -->
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" alt="Bug Bounty Banner" width="600"/>
-</p>
-
 <h1 align="center">🕷️ CYBERFINDER / PARMFINDER</h1>
 <h3 align="center"><i>Unlock hidden treasures on any website—one click at a time!</i></h3>
 
@@ -59,20 +55,11 @@
 
 ---
 
-## 🏆 Hall of Fame
-
-| Name        | Bug Found         | Reward      |
-|-------------|-------------------|-------------|
-| @hunter123  | IDOR on example.com | $500        |
-| @pentestpro | XSS on sample.net  | $250        |
-
----
-
 ## 📢 Shoutouts & Community
 
 - Join our Discord for tips, tricks, and exclusive bounties!
-- Follow us on Twitter [@cyberajju](https://twitter.com/cyberajju)
-- Telegram Group: [Link](#)
+- Follow us on Instagram [@cyberajju](https://www.instagram.com/cybertechajju/)
+- Whatsapp Group: [Link](https://chat.whatsapp.com/CITq9weKNJcH002isEQ5Ka)
 
 ---
 
@@ -132,15 +119,15 @@ javascript:(function(){/* code here */})()
 ## 🛠️ Bug Bounty Mindset
 
 > “Every bug is a bounty. Every endpoint is a treasure.”  
-> — CYBERAJJU
+> — CYBERTECHAJJU
 
 ---
 
 ## 👤 Author & Community
 
-- Twitter: [@cyberajju](https://twitter.com/cyberajju)
+- Instagram: [@cyberajju](https://www.instagram.com/cybertechajju/)
 - Github: [cyberajju](https://github.com/cyberajju)
-- Join our Discord: [Invite Link](#)
+- Join our whatsapp: [Invite Link](https://chat.whatsapp.com/CITq9weKNJcH002isEQ5Ka)
 
 ---
 
